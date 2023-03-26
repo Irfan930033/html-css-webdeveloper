@@ -1,0 +1,122 @@
+
+
+
+
+*{margin:0;
+padding:0;
+box-sizing: border-box;}
+html,
+body{
+    font-family: "Roboto",sans-serif;
+    font-weight: 300;
+    scroll-behavior: smooth;
+    line-height: 1.4;
+}
+header{background-color: #c96519;position:sticky;top:0;z-index:100;border-bottom: 4px solid rgb(189, 189, 42);;
+}
+.container{margin:0 auto;display:flex;justify-content: space-between;
+padding-right:20px;}
+
+.logo img{height:100px;padding:0;}
+
+.container a{text-decoration: none;list-style: none;color:white;font-size: 22px;}
+
+.container ul{display: flex;gap:50px;align-items:center;
+}
+nav ul{border-bottom: 2px solid transparent;transition: 0.2s;}
+
+nav ul  :hover{border-bottom: 2px solid white; transition: 0.2s;}
+
+.hero_section{background-image:url("images/background.jpg");height:100vh;display:grid;place-items: center;color:white;
+    text-align: center;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;color:white}
+
+.hero_section .hero_container{display:flex;flex-direction: column;gap:30px}
+
+.hero_section h1{font-size: 96px;}
+
+.hero_section h3{font-size :42px;}
+
+.gaap{height: 50px;background-color: rgb(189, 189, 42);position: relative;top:-50px;z-index: ;}
+
+.section_music{margin-top:-50px;padding-top:50px;
+    background-color: #c96519;color:white}
+
+
+
+.section_music .music_container{display:flex;flex-direction: column;align-items: center;justify-content: center;gap:30px;
+}
+.ipad_iphone-img{margin-top:-200px; position: relative;top:200px;}
+
+button{padding:10px 15px;
+border:none; transition:02s ease-in-out; }
+     button:hover{transition: 02s ease-in-out;}
+
+     .btn_music{background-color:rgb(189, 189, 42);color:white}
+
+     .video{display: grid;position:relative;top: 400px;place-items: center;}
+
+     .video_img img{height:400px;}
+
+     .video_section{height: 300px;}
+
+
+     .gift_section{display:grid; place-items: center;;position:relative ;top: 400px;align-items: center;
+        justify-content: center;width:100%;margin:0 auto; 
+   grid-template-columns: repeat(autofit,minmax(320,1fr));border:2px solid #666}
+
+    .gift_img1{width:100%;}
+    .gift_img1 img{width:300px;height: 200px;align-items: center;align-content: center;}
+
+
+    .tikets_text{display:flex;flex-direction: row;margin: 20px 0;box-shadow: 5px 5px 5px 5px  rgba(7,1,1,0.7);padding:0 20px;}
+    .tikets_text p img{width: 50%; }
+    .tikets_text p{width:350px;display: grid;place-items: center;padding-right: 50px;}
+
+    .giftcard{display: flex;flex-direction: row;margin: 20px 0;box-shadow: 5px 5px 5px 5px  rgba(7,1,1,0.7);}
+    .giftcard p img{width: 50%;}
+    .giftcard p {display: grid;place-items: center;padding-left: 50px;width:350px;}
+
+    .musicarena{display: flex;flex-direction: row;margin: 20px 0;box-shadow: 5px 5px 5px 5px  rgba(7,1,1,0.7);
+    padding:50px 20px;}
+    .musicarena p img{width: 50%;}
+    .musicarena p{display: grid;place-items: center;padding-right: 50px;width:350px;}
+    .musicarena img{height: 130px;width:270px;border-radius: 10px;}
+
+    .gift_text{font-size: 26px;line-height: 2.4;}
+
+    
+
+    .btnlast{margin:50px auto;position: relative;top:500px}
+
+    .upper_footer{margin-top:400px;display: flex;flex-direction: row;justify-content: space-around;
+    padding:10px;background-color:#a3551e;color: white;}
+
+    .upper_footer li{list-style: none;}
+
+    .upper_footer h4{margin-bottom:20px;border-bottom: 2px solid wheat;}
+
+    .lowr_footer{padding:20px;text-align: center;align-items: center;color:white;background-color: #c96519;}
+
+
+    @media(max-width:786px){.gift_section{display: flex; flex-direction: column;}
+    .gift_section p{font-size: 12px;text-align:justify;padding:5px;gap:5px;}
+    .gift_section img{width:300px}.hero_section{width:100%;height:30vh}
+    body{height:100vh;}
+    .hero_container h1{font-size: 36px;}.hero_container h3{font-size: 22px;}
+    .hero_container p{font-size: 16px;}.container{height:50px;font-size: 20px;}
+     .logo img{height:50px} 
+     .section_music{height: 25vh;}.ipad_iphone-img img{height: 25vh;padding-top: 0px;}
+     .musicarena img{width:200px;padding-left: 5px;}.video{display: none;}
+     }
+
+
+
+
+
+
+
+
+

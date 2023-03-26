@@ -1,0 +1,66 @@
+*{padding:0;
+margin:0;font-family: sans-serif;
+box-sizing: border-box;}
+
+body{background-color: #ccc;}
+.header{max-width:100%;margin:0 auto;;display:flex;justify-content: space-between;
+    padding-top:30px;padding-bottom: 30px;
+    border-bottom: #888 solid 2px;align-items: center;align-content: center;}
+
+    .header h3{padding-left:50px;font-size: 40px;}
+.header ul{display: flex;gap:30px;padding-right: 20px;list-style: none;align-items: center;
+    }
+
+.header a{text-decoration: none;color:#444;}
+
+button{color:green;width:80px; height:30px;}
+
+.container{
+     max-width:90%;
+    margin:0 auto;}
+
+.bars{display:none;}
+.Apply_box{max-width: 600px;height:auto;
+    padding: 20px;
+    margin:0 auto;
+    margin-top: 50px;
+box-shadow: 4px 3px 5px rgba(1,1,1,0.1);
+background-color: aliceblue;
+border-radius: 10px;}
+
+.container_form{display: grid;grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+
+gap: 20px;}
+.small_title{font-size: small;color:#888}
+.form_control{
+    display:flex;
+    flex-direction:column ;
+}
+h1{padding-bottom: 30px;}
+label,input,select{ padding: 6px 10px;width: 246.067px,;height: 30.7px;
+border-bottom: 2px solid #ccc;
+font-size: 15px;}
+.next{text-align: center;margin-top: 10px;
+}
+
+select {display:flex; width:100%;;margin-top: 5px;background-color:white;color:#888;}
+.select{margin-top:5px;}
+
+
+ul a:hover{color:white;background-color: #444;}
+
+@media(max-width:750px) and (min-width:600px){.header h3{font-size: 1.5rem;padding-left: 10px;}
+.header{justify-content: space-around;}.header a{font-size: 0.8rem;}
+select{width: 15rem;background-color:white;color:#888}.select{margin-top:5px;}
+.Apply_box h1{font-size:1rem;}}
+
+
+@media(max-width:601px) and (min-width:300px){.header h3{font-size: 1.2rem;padding-left: 10px;}
+.header{justify-content: space-between;padding-right:10px;}
+.header a{font-size: 0.8rem;}.container_form{display: flex;flex-direction: column;
+;}.bars{display: block;;}
+.header-a{display: none;}.Apply_box h1{font-size:1rem;}}
+
+
+
+

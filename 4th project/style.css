@@ -1,0 +1,75 @@
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+*{margin:0;
+    padding:0;
+font-family:sans-serif;
+box-sizing: border-box;
+}
+html,body{line-height: 1.4;
+font-weight: 300;}
+
+.hero_section{
+    background-image: url("https://images.unsplash.com/photo-1623479322729-28b25c16b011?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHdlYiUyMGRldmVsb3BlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+min-height: 25vh;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.hero_text{
+    color:white;width:800px;
+    margin:auto;
+    padding-top:64px;
+    padding-left: 16px;
+font-size: 64px;color:white;font-weight: 300;;}
+
+.lg_text{font-size: 36px;font-family:'roboto'sons-serif;}
+
+.bg_black h3{color:white;background-color: #222;padding:20px;text-align: center;font-size:96px;
+font-weight: 400; }
+.templet{
+    display: grid; grid-template-columns: repeat(auto-fit,minmax(320px,1fr));/*grid-template-columns:320px 320px 320px;*/
+    align-items: center;justify-content: center;
+    padding:50px;gap:20px;
+}
+.card{max-width: 320px;
+border-radius: 10px;
+height: 400px;
+box-shadow: 3px 5px 5px rgba(1,1,1,0.1);margin:0 auto;
+transition: 0.2s ease-in-out;
+}
+
+.work img{height:180px;padding-bottom: 20px;}
+.cardcontainer{padding:20px;}
+.cardcontainer p{padding-top: 10px;}
+
+ .card:hover{scale: 1.04;
+    transition: 0.2s ease-in-out;}
+
+    .contect{display: flex;}
+
+   .first{background-color: rgba(115, 18, 23, 0.467);}
+
+
+    .second{background-color: rgb(45, 98, 5, 0.467);}
+
+.first,.second{min-height: 300px;padding:32px 60px;border:2px black solid;
+line-height: 1.8;font-weight: 300;letter-spacing: 2px;line-height: 2.5;font-size: 18px;}
+
+.first h2{padding-bottom: 20px;font-size: 64px;}
+
+.second h2{padding-bottom: 20px;font-size: 64px;}
+
+footer{height:100px;background-color: black;color:white;; }
+
+footer h3{;font-size: 26px;text-align:center; padding-top:35px}
+
+
+
+@media(max-width: 786px){.hero_section{min-height: 50vh;}.hero_text{font-size: 18px;}
+.bg_black h3{font-size:32px;}.contect{flex-direction: column;}
+.first,.second{font-size: 18px;}.second h2,.first h2{font-size: 32px;}
+.imgcontainer img{height: 100px;}.lg_text{font-size: 16px;}
+
+}
