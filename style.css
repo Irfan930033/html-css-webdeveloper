@@ -106,9 +106,9 @@ transform: translateY(100px)}
 #contact h2{font-size: 6rem;text-align: center;}
 
 #contact .container {height: 90vh;display: flex;flex-direction: column;
-gap:4rem;justify-content: center;}
+gap:4rem;}
 
-.top_contact{display: grid; grid-template-columns: repeat(auto-fit,minmax(80px,1fr));
+.top_contact{display: grid; grid-template-columns: repeat(auto-fit,minmax(800px,1fr));
     margin:0,auto;max-width: 800px;place-items: center;font-size:4rem;}
 
 .contact_way{display: flex;align-items: center;gap:1rem;}
