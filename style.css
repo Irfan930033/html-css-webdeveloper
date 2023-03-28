@@ -180,7 +180,7 @@ gap:4rem;justify-content: center;}
 
 
     
-    @media(max-width:399px) and (min-width:200px)
+   @media(max-width:399px) and (min-width:200px)
     {.logo{font-size:1rem}ul li{font-size:  0.8rem;}
     ul li:hover{border-bottom:0.1rem solid #fff700;}
     
@@ -209,6 +209,5 @@ gap:4rem;justify-content: center;}
                                     
             
 }
-
 
 
