@@ -73,9 +73,17 @@ button{width: 80px;} header{justify-content: space-around;}.logo img{padding-lef
     @media(max-width: 599px)and (min-width:400px){.ultravl{display: none;}.bars{display: block;
     margin-top: 40px;}.bars{display: block;}
     button{width: 80px;} header{justify-content: space-around;}.logo img{padding-left: 20px;}
-    .textbg{font-size:1-*rem;background-color:transparent ;padding: 0;border: none;color:white;}
+    .textbg{font-size:1rembackground-color:transparent ;padding: 0;border: none;color:white;}
     p{font-size: 0.8rem;
         font-weight: bold;text-align: justify;}
     .section_sectionlight p{font-size: 0.8rem;line-height: 1.4;font-weight: 50;}
     }
        
+    @media(max-width: 399px)and (min-width:200px){.ultravl{display: none;}.bars{display: block;
+        margin-top: 40px;}.bars{display: block;}
+        button{width: 50px;} header{justify-content: space-around;}.logo img{padding-left: 10px;}
+        .textbg{font-size:1rem;background-color:transparent ;padding: 0;border: none;color:white;}
+        p{font-size: 0.8rem;
+            font-weight: bold;text-align: justify;}
+        .section_sectionlight p{font-size: 0.8rem;line-height: 1.4;font-weight: 50;}
+        }
