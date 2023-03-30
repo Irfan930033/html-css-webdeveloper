@@ -78,10 +78,10 @@ button{width: 80px;} header{justify-content: space-around;}.logo img{padding-lef
     .section_sectionlight p{font-size: 0.8rem;line-height: 1.4;font-weight: 50;}    }
        
     @media(max-width: 399px)and (min-width:200px){.ultravl{display: none;}.bars{display: block;
-        margin-top: 40px;}.bars{display: block;}
+        margin-top: 30px;}.bars{display: block;}
         button{width: 50px;} header{justify-content: space-around;}.logo img{padding-left: 10px;}
         .textbg{font-size:0.6rem;background-color:transparent ;padding: 0;border: none;color:white;}
-        p{font-size: 0.5rem;
+        p{font-size: 0.8rem;
             font-weight: bold;text-align: justify;}
-        .section_sectionlight p{font-size: 0.6rem;line-height: 1;font-weight: 50;}
+        .section_sectionlight p{font-size: 0.8rem;line-height: 1.2;font-weight: 50;}
         }
