@@ -10,7 +10,7 @@ html,body{
     scroll-behavior: smooth;height:100vh;width:100%;
 }
 
-nav img{height: 20px;width:90%;}
+nav img{height:10px;width:90%;}
 
 .logo img{width:150px;height:auto; }
 
@@ -29,12 +29,12 @@ border-top-right-radius: 25px;border:1px solid #ccc}
 
 .side_nav{display: flex;gap:30px;padding-right: 20px;align-items: center;padding-left: 30px;}
 
-.mic img{width:30px;height:30px;background-color: #ccc; 
+.mic img{height:30px;background-color: #ccc; 
     margin-left: 20px;border-radius: 50%;margin-top: 10px;}
 
 
     .tag{display: flex;flex-direction: row;gap:30px;padding:10px 20px;
-        border-top:1px solid #ccc;border:1px solid #ccc; border-radius: 50px;gap:30px;}
+        border-top:1px solid #ccc;border:1px solid #ccc; border-radius: 50px;}
 
    .tags{display: flex;gap:30px;padding-bottom:20px;padding-top: 50px;;}
 
@@ -51,7 +51,7 @@ aside{margin-top:30px;margin-left: 10px;;}
 
 .bars p{font-size: 12px;}
 
-.card img{width:250px;widt: 320px;}
+.card img{width:250px;width: 320px;}
 
 .card_contnts img{height:30px; width:30px;border-radius: 50%;padding:5px;}
 
@@ -67,11 +67,22 @@ aside{margin-top:30px;margin-left: 10px;;}
 
    .card_status p{font-size: 10px;}
 
-   @media
+   @media(max-width:600px) and (min-width:400px){input{min-width:100px;height:30px}.mic img{display: none;}
+   .logo img{width:75px;height:auto;margin-top: 16px;}.bar img{width:15px;} i img{width: 15px;}.bars p{font-size: 10px;}
+   nav{gap:1px;align-items: center;justify-content: space-around;}
+   .tags{gap:5px;font-size: 10px;padding:20px;align-items: center;}
+   .none{display: none;}.camra{margin-top:10px;height:20px;display:grid;}
+   nav img{height: 40px;height:10px;}.photo img{height:50px;}.cards img{height:60%;width:60%;}
+   .card_contnts img{height:45px;width:45px}.card_text h3{font-size: 16px;}.chanel_info{font-size: 10px;}
+   
+}
 
-
-
-
-
-        
-    
+   @media(max-width:399px) and (min-width:200px){input{display: none;}
+   button{height: 30px;width:30px;margin-top: 12px;
+border:none;background-color:white;}.tag{gap:5px;padding:5px;}.mic img{display: none;}
+   .logo img{width:75px;height:auto;margin-top: 16px;}.bar img{width:15px;} i img{width: 15px;}.bars p{font-size: 10px;}
+   nav{gap:1px;align-items: center;justify-content: space-around;}
+   .tags{gap:5px;font-size: 10px;height:px;width:15px;padding:20px;align-items: center;:}
+   .none{display: none;}.camra{margin-top:15px;height:15px}
+   nav img{height: 20px;height:10px;}.photo img{height:15px;}.cards img{height:100px;width:150px;}
+   .card_contnts img{height:25px;width:25px}.card_text h3{font-size: 12px;}.chanel_info{font-size: 10px;}
